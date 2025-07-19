@@ -1,0 +1,81 @@
+<!-- Replace your current HTML with this updated version -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EDUSPHERE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/index html assets/logo.png" />
+    <script
+      src="https://kit.fontawesome.com/a9da22d09f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="main-body">
+    <header class="hero-bg">
+      <nav id="main-nav" class="flex-sb">
+        <!-- Logo Section -->
+        <div id="logo-section" class="flex-sb pointer">
+          <img src="assets/index html assets/logo.png" alt="Logo" id="logo-img" />
+          <h2 id="logo-h2"><span class="color-green">e</span>dusphere</h2>
+        </div>
+
+        <!-- Navigation -->
+        <div id="nav-elements-div" class="flex-se">
+          <a href="#" class="nav-contents">Courses <i class="fa-solid fa-caret-down"></i></a>
+          <a href="#" class="nav-contents">Roadmap</a>
+          <a href="#" class="nav-contents">Live Classes</a>
+          <a href="quiz1.html" class="nav-contents">Quiz</a>
+          <div class="nav-contents-others">
+            <a href="#" class="nav-contents">Other Services <i class="fa-solid fa-caret-down"></i></a>
+            <ul id="other-services-list">
+              <li><a href="ebooks.html">Free eBooks</a></li>
+              <li><a href="#">Video Download</a></li>
+              <li><a href="#">Notes</a></li>
+              <li><a href="#">PYQs</a></li>
+              <li><a href="#">Blogs</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Auth Buttons -->
+        <div id="main-btn-div" class="flex-sb">
+          <a href="login.html"><button class="main-section-btn">Login</button></a>
+          <a href="register.html"><button id="register-btn">Register</button></a>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="hero-section flex-se">
+        <div class="main-div">
+          <h1><span class="color-green">Studying</span> Online is now much easier with <span class="color-green">E</span>dusphere</h1>
+          <p>Edusphere is an online platform to help you learn better with smart tools.</p>
+          <div class="main-div-part-3 flex-sb">
+            <a href="register.html"><button class="main-section-btn">Join for Free</button></a>
+            <div class="flex video-watch">
+              <i class="fa-solid fa-play"></i>
+              <span>Watch how it works?</span>
+            </div>
+          </div>
+        </div>
+        <div class="image-div-hero-section">
+          <img src="assets/index html assets/header-pic.png" alt="Hero Image" id="main-img" />
+        </div>
+      </section>
+    </header>
+
+    <!-- AI Summarizer -->
+    <section class="main-sections flex-se">
+      <div class="card-glass">
+        <h2><span class="color-green">AI</span> Text Summarizer</h2>
+        <img src="assets/robot-img/summerizer-robot.png" alt="Summarizer Robot" />
+        <textarea id="inputText" placeholder="Enter text to summarize..."></textarea>
+        <button onclick="summarizeText()">Summarize</button>
+        <p id="summary"></p>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
